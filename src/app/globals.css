@@ -1,30 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-.animated-bar {
-  position: relative;
-}
 
-.animated-bar::before {
-  background: linear-gradient(
-    to right,
-    rgba(14, 92, 189, 0.24) 30%,
-    transparent 30.1%
-  );
-  background-size: 4px 100%;
-  content: "";
-  animation: move 1s linear infinite;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: inherit;
+@layer utilities {
+  .animated-bar {
+    position: relative;
+  }
+
+  .animated-bar::before {
+    background: linear-gradient(
+      to right,
+      rgba(14, 92, 189, 0.24) 30%,
+      transparent 30.1%
+    );
+    content: "";
+    height: 500%;
+    width: 500%;
+    background-size: 4px 100%;
+    -webkit-animation: move 2s linear infinite;
+    animation: move 2s linear infinite;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+  }
 }
 
 @keyframes move {
-  100% {
-    background-size: 4px 0;
+  to {
+    transform: translate(-4px);
   }
-} */
+}
