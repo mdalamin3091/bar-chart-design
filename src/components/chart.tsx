@@ -4,6 +4,7 @@ import { calculateHeight } from "@/utils/utils";
 import HoveredCard from "./hovered-card";
 import ChartHeader from "./chart-header";
 import ChartYAxis from "./chart-y-axis";
+import ChartXAxis from "./chart-x-axis";
 
 interface PropsType {
     options: {
@@ -50,11 +51,7 @@ const Chart: FC<PropsType> = ({ options }) => {
                                 </div>
                             ))}
                         </div>
-
-                        <div className="flex items-center justify-between border-t border-gray-100 text-gray-400">
-                            <p>Jan 1</p>
-                            <p>Jan 31</p>
-                        </div>
+                        <ChartXAxis />
                     </div>
                 </div>
             </div>

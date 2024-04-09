@@ -11,7 +11,7 @@ export default function Home() {
             min: 0,
             max: 2000,
             diff: 500
-        }
+        },
     }
 
     return (
