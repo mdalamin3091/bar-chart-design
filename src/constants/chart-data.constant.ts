@@ -4,31 +4,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 500,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 400,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 400,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 200,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 300,
       },
@@ -39,31 +39,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 600,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 240,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 100,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 440,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 400,
       },
@@ -74,31 +74,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 800,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 200,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 100,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 240,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 550,
       },
@@ -109,31 +109,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 600,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 200,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 400,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 500,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 200,
       },
@@ -144,31 +144,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 700,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 300,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 400,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 100,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 200,
       },
@@ -179,31 +179,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 600,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 200,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 400,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 200,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 200,
       },
@@ -214,31 +214,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 600,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 200,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 400,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 500,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 300,
       },
@@ -249,31 +249,31 @@ export const chartData = [
     item: [
       {
         id: 1,
-        color: "bg-red-400",
+        color: "#A6CFF8",
         title: "Savings",
         value: 800,
       },
       {
         id: 2,
-        color: "bg-blue-400",
+        color: "#3C82F6",
         title: "RDS",
         value: 200,
       },
       {
         id: 3,
-        color: "bg-green-500",
+        color: "#14B8A6",
         title: "EC2",
         value: 400,
       },
       {
         id: 4,
-        color: "bg-purple-400",
+        color: "#E93E83",
         title: "ElastiCache",
         value: 100,
       },
       {
         id: 5,
-        color: "bg-gray-400",
+        color: "#BCBBB5",
         title: "Others",
         value: 200,
       },
@@ -282,8 +282,8 @@ export const chartData = [
 ];
 
 export const legendData = [
-  { id: 1, title: "RDS", amount: "$12,100.50", color: "bg-blue-600" },
-  { id: 2, title: "EC2", amount: "$11,110.90", color: "bg-green-600" },
-  { id: 3, title: "ElastiCache", amount: "$9,120.50", color: "bg-red-600" },
-  { id: 4, title: "Others", amount: "$11,120.50", color: "bg-gray-600" },
+  { id: 1, title: "RDS", amount: "$12,100.50", color: "#3C82F6" },
+  { id: 2, title: "EC2", amount: "$11,110.90", color: "#14B8A6" },
+  { id: 3, title: "ElastiCache", amount: "$9,120.50", color: "#E93E83" },
+  { id: 4, title: "Others", amount: "$11,120.50", color: "#BCBBB5" },
 ];
