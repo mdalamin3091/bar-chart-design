@@ -22,5 +22,3 @@ export type YAxisDataType = {
   max: number;
   diff: number;
 };
-
-// { id: 1, title: "RDS", amount: "$12,100.50", color: "bg-blue-600" },

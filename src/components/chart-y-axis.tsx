@@ -1,6 +1,8 @@
+import React, { FC } from 'react'
+
+// internal import
 import { YAxisDataType } from '@/types';
 import { formatNumber } from '@/utils/utils';
-import React, { FC } from 'react'
 
 interface PropsType {
     yAxis: YAxisDataType

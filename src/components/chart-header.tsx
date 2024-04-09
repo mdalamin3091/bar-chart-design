@@ -1,4 +1,6 @@
 import { FC } from 'react';
+
+// internal imports
 import { legendDataType } from '@/types'
 
 interface PropsType {

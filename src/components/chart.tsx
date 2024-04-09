@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+// internal import
 import { YAxisDataType, chartDataType, legendDataType } from "@/types";
 import ChartHeader from "./chart-header";
 import ChartYAxis from "./chart-y-axis";

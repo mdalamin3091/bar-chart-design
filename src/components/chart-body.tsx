@@ -1,4 +1,6 @@
 import { FC } from 'react'
+
+// internal import
 import { YAxisDataType, chartDataType } from '@/types'
 import { calculateHeight } from '@/utils/utils'
 import HoveredCard from './hovered-card'

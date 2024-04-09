@@ -1,8 +1,16 @@
-import React from 'react'
+import { FC } from "react";
 
-const HoveredCard = ({ item, duration }: any) => {
+// internal imports
+import { chartDataItemType } from "@/types";
 
-    const grandTotal = item.reduce((total: number, currentItem: any) => {
+interface PropsType {
+    item: chartDataItemType[],
+    duration: string;
+}
+
+const HoveredCard: FC<PropsType> = ({ item, duration }) => {
+
+    const grandTotal = item.reduce((total: number, currentItem: chartDataItemType) => {
         return total + currentItem.value;
     }, 0);
 
