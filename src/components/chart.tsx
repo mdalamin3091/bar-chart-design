@@ -19,9 +19,16 @@ const Chart: FC<PropsType> = ({ options }) => {
     return (
         <div className="flex items-center justify-center max-w-[700px] ">
             <div className="bg-white shadow-xl h-[400px] w-[500px] px-5 rounded-xl border border-gray-200 p-5">
+
+                {/* chart header */}
                 {legendData && <ChartHeader legendData={legendData} />}
+
                 <div className="flex gap-3 mt-5 items-end h-[75%]">
+                    {/* chart Y axis */}
+
                     <ChartYAxis yAxis={yAxis} />
+
+                    {/* chart body */}
                     <div className="flex-1">
                         <div className="flex items-center gap-2 justify-between mb-4">
                             {chartData.map((data, idx) => (
@@ -46,11 +53,15 @@ const Chart: FC<PropsType> = ({ options }) => {
                                             : "right-[calc(100%+8px)]"
                                             }`}
                                     >
+                                        {/* hover card  */}
                                         <HoveredCard duration={data.duration} item={data.item} />
+
                                     </div>
                                 </div>
                             ))}
                         </div>
+
+                        {/* chart X axis */}
                         <ChartXAxis />
                     </div>
                 </div>
