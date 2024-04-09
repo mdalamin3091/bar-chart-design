@@ -10,10 +10,10 @@ interface PropsType {
 
 const ChartBody: FC<PropsType> = ({ chartData, yAxis }) => {
     return (
-        <div className="flex items-center gap-2 justify-between mb-4">
+        <div className="flex items-center gap-1 md:gap-2 justify-between mb-4">
             {chartData.map((data, idx) => (
                 <div
-                    className="h-[200px] hover:bg-gray-100 w-10 rounded-sm flex flex-col gap-[1px] p-2 transition-all ease-in duration-100 justify-end group/item relative"
+                    className="h-[200px] hover:bg-gray-100 w-5 md:w-10 rounded-sm flex flex-col gap-[1px] p-1 md:p-2 transition-all ease-in duration-100 justify-end group/item relative"
                     key={idx}
                 >
                     {data.item.map((dt, index, array) => (
@@ -22,8 +22,8 @@ const ChartBody: FC<PropsType> = ({ chartData, yAxis }) => {
                                 height: `${calculateHeight(dt.value, yAxis.max)}%`,
                                 backgroundColor: dt.color
                             }}
-                            className={`w-full h-10 ${index === 0 && "rounded-tl rounded-tr"
-                                } ${index === array.length - 1 && "rounded-bl rounded-br"
+                            className={`w-[65%] md:w-full h-10 ${index === 0 && "rounded-t animated-bar overflow-hidden"
+                                } ${index === array.length - 1 && "rounded-b"
                                 }`}
                             key={dt.id}
                         />
