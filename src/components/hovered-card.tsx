@@ -21,24 +21,16 @@ const HoveredCard: FC<PropsType> = ({ item, duration }) => {
                 <p>${grandTotal}</p>
             </div>
             {
-                item.map((itm: any) => (
+                item.map((itm: chartDataItemType) => (
                     <div className="flex items-center justify-between" key={itm.id}>
                         <div className="flex items-center justify-start gap-2">
-                            <span className={`block w-2 h-1 ${itm.color} rounded-md`}></span>
+                            <span style={{ backgroundColor: itm.color }} className="block w-2 h-1 rounded-md"></span>
                             <p className="text-sm">{itm.title}</p>
                         </div>
                         <p className="text-sm text-gray-500">${itm.value}</p>
                     </div>
                 ))
             }
-
-            {/* <div className="flex items-center justify-between mt-4  border-t border-gray-200 pt-3">
-                <div className="flex items-center justify-start gap-2">
-                    <span className="block w-2 h-1 bg-gray-300 rounded-md"></span>
-                    <p className="text-sm">Savings</p>
-                </div>
-                <p className="text-sm text-gray-500">$800</p>
-            </div> */}
         </div>
     )
 }
